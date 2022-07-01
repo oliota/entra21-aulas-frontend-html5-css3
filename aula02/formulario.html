@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <a href="/index.html">Voltar ao menu principal</a>
+
+    <ul>
+      <li>Fomulario que envolve todos os campos</li>
+      <li>Existem campos de captura e de ação como buttons</li>
+      <li>
+        na configuração do form informe:
+        <ol>
+          <li>
+            action="mailto:SEUEMAIL?subject=SEU_ASSUNTO"
+          </li>
+          <li>method="post"</li>
+          <li>enctype="text/plain"</li>
+        </ol>
+      </li>
+    </ul>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <form
+      action="mailto:rubem@oliota.com?subject=Olá Rubem, visitei o seu site aguardo o seu retorno, seguem algumas informações."
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="Nome">Nome - CAMPO DE TEXTO</label>
+      <input type="text" name="nome" />
+      <br />
+      <label for="Sobrenome"
+        >Sobrenome - CAMPO DE TEXTO - obrigatorio - com placeholder</label
+      >
+      <input
+        type="text"
+        name="sobrenome"
+        placeholder="Informe seu sobrenome"
+        required
+      />
+      <br />
+      <label for="apelido"
+        >Apelido - CAMPO DE TEXTO - não editavel - com placeholder</label
+      >
+      <input
+        type="text"
+        name="apelido"
+        placeholder="não ligo para apelido"
+        readonly
+      />
+      <br />
+      <label for="Idade">Idade - CAMPO NUMERICO</label>
+      <input type="number" name="idade" />
+      <hr />
+
+      <label for="nascimento">Data de nascimento</label>
+      <input type="date" name="nascimento" />
+      <br />
+      <hr />
+      <label for="tema">Tema preferido - CAMPO DE ESCOLHA UNICA</label>
+      <br />
+      <label for="tema_preferido">Light</label>
+      <input type="radio" name="tema_preferido" value="Light" />
+      <label for="tema_preferido">Dark</label>
+      <input type="radio" name="tema_preferido" value="Dark" />
+
+      <hr />
+      <label for="cor">Cor </label>
+      <input type="color" name="cor" />
+
+      <hr />
+      <input type="reset" value="Limpar campos" />
+      <input type="submit" value="Enviar email" />
+    </form>
+  </body>
+</html>

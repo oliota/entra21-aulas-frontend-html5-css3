@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabelas</title>
+  </head>
+  <body>
+    <a href="/index.html">Voltar ao menu principal</a>
+
+    <ul>
+      Estrutura de uma tabela
+      <li>
+        Table
+        <ul>
+          <li>
+            thead - cabeçalho da tabela onde tem apenas uma linha
+            <ul>
+              <li>th - coluna de titulo</li>
+              <li>th- coluna de titulo</li>
+              <li>th- coluna de titulo</li>
+            </ul>
+          </li>
+          <li>
+            tbody - corpo da tabela
+            <ul>
+              <li>
+                tr - linha da tabela que deve conter a mesma quantidade de
+                colunas no cabeçalho
+                <ul>
+                  <li>td - coluna da linha</li>
+                  <li>td - coluna da linha</li>
+                  <li>td - coluna da linha</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            tfoot - rodapé da tabela (opcional)
+            <ul>
+              <li>
+                tr - linha da tabela que deve conter a mesma quantidade de
+                colunas no cabeçalho
+                <ul>
+                  <li>td - coluna da linha</li>
+                  <li>td - coluna da linha</li>
+                  <li>td - coluna da linha</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <hr />
+
+    <table border="1">
+      <thead>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fulano</td>
+          <td>33</td>
+          <td>Blumenau</td>
+        </tr>
+        <tr>
+          <td>Teste</td>
+          <td>24</td>
+          <td>Florianopolis</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Nome</td>
+          <td>Idade</td>
+          <td>Cidade</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
