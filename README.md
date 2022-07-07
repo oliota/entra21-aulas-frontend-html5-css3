@@ -14,4 +14,5 @@ Repositório com as práticas realizadas em aula
 | AULA | ASSUNTO |
 |------|---------|
 |Aula 01 | Configurar ambiente e criar primeira página
-|Aula 02 | Navegação com links, organizar dados em tabelas e captura de dados com formulário
+|Aula 02 | Navegação com links, organizar dados em tabelas e captura de dados 
+|Aula 03 | Inserindo mídias

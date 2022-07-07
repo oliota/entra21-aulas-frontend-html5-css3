@@ -1,0 +1,80 @@
+ 
+ .grid {
+     display: grid;
+ }
+ 
+ .header {
+     grid-area: header;
+     padding: 4px;
+     background: darkgray; 
+ }
+
+
+ .content {
+     grid-area: content;
+     padding: 8px;
+     background-image: linear-gradient(darkgray,white);
+ }
+
+ .sidenav {
+     grid-area: sidenav;
+     height: 100vh;
+     background-image: linear-gradient(darkgray,white);
+ }
+
+
+ .footer {
+     grid-area: footer;
+ }
+
+ footer::after {
+     content: "© Copyright 2022 SeuSite.com.br  - Todos os direitos reservados";
+ }
+
+ .grid-template-areas {
+     grid-template-areas:
+         "header header header header header header header header header header header header"
+         "sidenav sidenav sidenav content content content content content content content content content "
+         "sidenav sidenav sidenav content content content content content content content content content "
+         "footer footer footer footer footer footer footer footer footer footer footer footer";
+ }
+ 
+ .item {  
+     font-size: clamp(1em, 1em + 1vw, 1.5em);
+ }
+
+ .grid {
+     gap: 8px;
+     margin: 0 auto;
+     border: 1px solid #ccc;
+ }
+
+ nav ul {
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+ }
+
+ nav ul li {
+     position: relative;
+     margin: 2px;
+     border: 1px solid black;
+     background-color: darkgray;
+     list-style: none;
+ }
+
+ .selecionado{
+    background-color: gray;
+ }
+
+ nav ul li:hover {
+     background-color: lightgrey;
+ }
+
+
+
+
+ header img {
+     width: 22px;
+     padding: 0px;
+ }
