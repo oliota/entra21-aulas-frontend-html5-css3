@@ -16,3 +16,7 @@ Repositório com as práticas realizadas em aula
 |Aula 01 | Configurar ambiente e criar primeira página
 |Aula 02 | Navegação com links, organizar dados em tabelas e captura de dados 
 |Aula 03 | Inserindo mídias
+|Aula 04 | Criando um site pessoal com html e css
+|Aula 05 | Criando um site com grid layout css
+|Aula 06 | Introdução ao bootstrap
+|Aula 07 | Criando um site pessoal com bootstrap
