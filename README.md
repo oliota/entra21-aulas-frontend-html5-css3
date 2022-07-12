@@ -1,4 +1,4 @@
-# entra21 Bancos relacionais
+# entra21 Html e Css
 Repositório com as práticas realizadas em aula  
 
 > Conteúdo prático realizado em sala durante o projeto Entra21
