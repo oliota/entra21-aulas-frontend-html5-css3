@@ -20,3 +20,4 @@ Repositório com as práticas realizadas em aula
 |Aula 05 | Criando um site com grid layout css
 |Aula 06 | Introdução ao bootstrap
 |Aula 07 | Criando um site pessoal com bootstrap
+|Aula 08 | Criando um site para navegação do projeto desenvolvido em java
